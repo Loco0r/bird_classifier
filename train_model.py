@@ -18,7 +18,7 @@ for subdir, dirs, files in os.walk(directory):
 
 # Veri yolları
 train_dir = 'https://github.com/Loco0r/bird_classifier/tree/main/train'
-test_dir = 'C:/Users/recep/Desktop/Bird_classifier/backend/model_training/dataset/test'
+test_dir = 'https://github.com/Loco0r/bird_classifier/tree/main/test'
 
 # Veri işleme
 train_datagen = ImageDataGenerator(rescale=1./255, rotation_range=30, zoom_range=0.2, horizontal_flip=True)
