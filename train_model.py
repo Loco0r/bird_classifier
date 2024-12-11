@@ -17,7 +17,7 @@ for subdir, dirs, files in os.walk(directory):
             print(f'Bozuk dosya:{file}')
 
 # Veri yolları
-train_dir = 'C:/Users/recep/Desktop/Bird_classifier/backend/model_training/dataset/train'
+train_dir = 'https://github.com/Loco0r/bird_classifier/tree/main/train'
 test_dir = 'C:/Users/recep/Desktop/Bird_classifier/backend/model_training/dataset/test'
 
 # Veri işleme
