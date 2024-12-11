@@ -6,7 +6,7 @@ from tensorflow.keras.layers import GlobalAveragePooling2D, Dense, Dropout
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from PIL import Image
 
-directory='C:/Users/recep/Desktop/Bird_classifier/backend/model_training/dataset/train'
+directory='https://github.com/Loco0r/bird_classifier/tree/main/train'
 for subdir, dirs, files in os.walk(directory):
     for file in files:
         try:
