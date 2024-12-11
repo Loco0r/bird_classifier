@@ -37,4 +37,4 @@ history=model.fit(
     validation_steps=test_data.samples // 32
 )
 
-model.save('C:/Users/recep/Desktop/Bird_classifier/backend/saved_model/bird_classifier.h5')
+model.save('https://github.com/Loco0r/bird_classifier/blob/main/bird_classifier.h5')
