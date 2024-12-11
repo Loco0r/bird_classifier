@@ -7,7 +7,7 @@ import os
 app = Flask(__name__)
 
 # Modeli yükle
-model_path = 'C:/Users/recep/Desktop/Bird_classifier/backend/saved_model/bird_classifier.h5'
+model_path = '/opt/render/project/bird_classifier.h5'
 model = load_model(model_path)
 
 # Sınıf isimleri
